@@ -13,16 +13,11 @@ docker build -t sh-tetris:2.1.0 .
 docker run -it sh-tetris:2.1.0 .
 ```
 
-<!--
-
 ### From DockerHub
 
 ```bash
 docker run --rm -it eggplanter/sh-tetris:2.1.0
 ```
-
--->
-
 
 ## License
 
