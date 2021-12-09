@@ -23,9 +23,14 @@ docker run -it sh-tetris:2.1.0 .
 docker run --rm -it eggplanter/sh-tetris:2.1.0
 ```
 
+## Screenshot
+
+![screenshot]
+
 ## License
 
 MIT
 
 [image size]: https://img.shields.io/docker/image-size/eggplanter/sh-tetris
 [image latest version]: https://img.shields.io/docker/v/eggplanter/sh-tetris
+[screenshot]: https://user-images.githubusercontent.com/42153744/145486635-5c0336b8-378a-42f8-8879-4ad7fefe996b.png
