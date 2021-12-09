@@ -1,5 +1,9 @@
 # sh-tetris-docker
 
+[![image size]](https://hub.docker.com/r/eggplanter/sh-tetris
+) [![image latest version]](https://hub.docker.com/r/eggplanter/sh-tetris
+)
+
 - [ContentsViewer/sh-tetris](https://github.com/ContentsViewer/sh-tetris) on Docker
 - `sh-tetris` is licensed by [MIT License](https://github.com/ContentsViewer/sh-tetris/blob/master/LICENSE)
 
@@ -22,3 +26,6 @@ docker run --rm -it eggplanter/sh-tetris:2.1.0
 ## License
 
 MIT
+
+[image size]: https://img.shields.io/docker/image-size/eggplanter/sh-tetris
+[image latest version]: https://img.shields.io/docker/v/eggplanter/sh-tetris
