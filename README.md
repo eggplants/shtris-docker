@@ -12,15 +12,15 @@
 ### From local Dockerfile
 
 ```bash
-wget https://raw.githubusercontent.com/eggplants/sh-tetris-docker/master/latest/Dockerfile
-docker build -t sh-tetris:latest .
-docker run -it sh-tetris:latest .
+wget https://raw.githubusercontent.com/eggplants/sh-tetris-docker/master/v2.1.0/Dockerfile
+docker build -t sh-tetris:v2.1.0 .
+docker run -it sh-tetris:v2.1.0 .
 ```
 
 ### From DockerHub
 
 ```bash
-docker run --rm -it eggplanter/sh-tetris:2.1.0
+docker run --rm -it eggplanter/sh-tetris:v2.1.0
 ```
 
 ## Screenshot
