@@ -12,9 +12,9 @@
 ### From local Dockerfile
 
 ```bash
-wget https://raw.githubusercontent.com/eggplants/sh-tetris-docker/master/Dockerfile
-docker build -t sh-tetris:2.1.0 .
-docker run -it sh-tetris:2.1.0 .
+wget https://raw.githubusercontent.com/eggplants/sh-tetris-docker/master/latest/Dockerfile
+docker build -t sh-tetris:latest .
+docker run -it sh-tetris:latest .
 ```
 
 ### From DockerHub
