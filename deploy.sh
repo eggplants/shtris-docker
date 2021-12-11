@@ -23,9 +23,9 @@ fi
 for v in "${vs[@]}"; do
   echo "[[[ $v ]]]"
   docker build -t "${repo}:${v}" --build-arg VERSION="$v" .
-  [ TEST = "1" ] || docker push "${repo}:${v}"
+  [ "$TEST" = "1" ] || docker push "${repo}:${v}"
 done
 
 echo "[[[ latest ]]]]"
 docker build -t "${repo}:latest" --build-arg VERSION="${vs[${#vs[@]}-1]}" .
-[ TEST= "1" ] || docker push "${repo}:latest"
+[ "$TEST" = "1" ] || docker push "${repo}:latest"
