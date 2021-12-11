@@ -9,18 +9,15 @@
 
 ## Usage
 
-### From local Dockerfile
-
 ```bash
-wget https://raw.githubusercontent.com/eggplants/sh-tetris-docker/master/v2.1.0/Dockerfile
-docker build -t sh-tetris:v2.1.0 .
-docker run -it sh-tetris:v2.1.0 .
-```
-
-### From DockerHub
-
-```bash
+# launch game
 docker run --rm -it eggplanter/sh-tetris:v2.1.0
+# show help
+docker run --rm -it eggplanter/sh-tetris:v2.1.0 -h
+# disable ansi color
+docker run --rm -it eggplanter/sh-tetris:v2.1.0 --no-color
+# set difficulty (1~15, default: 1)
+docker run --rm -it eggplanter/sh-tetris:v2.1.0 -l 10
 ```
 
 ## Screenshot

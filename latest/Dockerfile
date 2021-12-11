@@ -4,4 +4,4 @@ RUN wget -nv https://raw.githubusercontent.com/ContentsViewer/sh-tetris/master/t
     && chmod +x ./tetris \
     && mv ./tetris /usr/local/bin/
 
-CMD ["tetris"]
+ENTRYPOINT ["tetris"]
