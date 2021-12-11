@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Usage:
+#
+# Build Only:
+#   $ TEST=1 ./deploy.sh
+# Build && Push
+#   $ ./deploy.sh
+
 set -euo pipefail
 
 vs=(
