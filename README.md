@@ -11,16 +11,16 @@
 
 ```bash
 # launch game
-docker run --rm -it eggplanter/sh-tetris:v2.1.0
+docker run --rm -it eggplanter/sh-tetris
 
 # show help
-docker run --rm -it eggplanter/sh-tetris:v2.1.0 -h
+docker run --rm -it eggplanter/sh-tetris -h
 
 # disable ansi color
-docker run --rm -it eggplanter/sh-tetris:v2.1.0 --no-color
+docker run --rm -it eggplanter/sh-tetris --no-color
 
 # set difficulty (1~15, default: 1)
-docker run --rm -it eggplanter/sh-tetris:v2.1.0 -l 10
+docker run --rm -it eggplanter/sh-tetris -l 10
 ```
 
 ## Screenshot
