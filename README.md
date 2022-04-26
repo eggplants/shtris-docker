@@ -4,8 +4,8 @@
 ) [![image latest version]](https://hub.docker.com/r/eggplanter/sh-tetris
 )
 
-- [ContentsViewer/sh-tetris](https://github.com/ContentsViewer/sh-tetris) on Docker
-- `sh-tetris` is licensed by [MIT License](https://github.com/ContentsViewer/sh-tetris/blob/master/LICENSE)
+- [ContentsViewer/shtris](https://github.com/ContentsViewer/shtris) on Docker
+- `shtris` is licensed by [MIT License](https://github.com/ContentsViewer/shtris/blob/master/LICENSE)
 
 ## Usage
 

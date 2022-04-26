@@ -2,8 +2,13 @@ FROM alpine:3.15
 
 ARG VERSION
 ENV VERSION ${VERSION:-master}
-RUN wget -nv "https://raw.githubusercontent.com/ContentsViewer/sh-tetris/${VERSION}/tetris" \
-    && chmod +x ./tetris \
-    && mv ./tetris /usr/local/bin/
+RUN if [[ "$VERSION" =~ v[12]* ]]; then \
+      wget -nv "https://raw.githubusercontent.com/ContentsViewer/shtris/${VERSION}/tetris"; \
+      mv tetris shtris; \
+    else \
+      wget -nv "https://raw.githubusercontent.com/ContentsViewer/shtris/${VERSION}/shtris"; \
+    fi
+    && chmod +x ./shtris \
+    && mv ./shtris /usr/local/bin/
 
-ENTRYPOINT ["tetris"]
+ENTRYPOINT ["shtris"]
