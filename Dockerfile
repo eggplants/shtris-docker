@@ -8,7 +8,8 @@ RUN if [[ "$VERSION" =~ v[12]* ]]; then \
     else \
       wget -nv "https://raw.githubusercontent.com/ContentsViewer/shtris/${VERSION}/shtris"; \
     fi
-    && chmod +x ./shtris \
+
+RUN chmod +x ./shtris \
     && mv ./shtris /usr/local/bin/
 
 ENTRYPOINT ["shtris"]
