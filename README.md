@@ -21,8 +21,7 @@ docker run --rm -it ghcr.io/eggplants/shtris-docker -l 10
 
 ## Screenshot
 
-![screenshot]
-
+https://user-images.githubusercontent.com/42153744/166234308-7e926b26-1cb3-420f-ad01-b09ea2252474.mp4
 
 ## License
 
