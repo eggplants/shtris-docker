@@ -1,8 +1,4 @@
-# sh-tetris-docker
-
-[![image size]](https://hub.docker.com/r/eggplanter/sh-tetris
-) [![image latest version]](https://hub.docker.com/r/eggplanter/sh-tetris
-)
+# shtris-docker
 
 - [ContentsViewer/shtris](https://github.com/ContentsViewer/shtris) on Docker
 - `shtris` is licensed by [MIT License](https://github.com/ContentsViewer/shtris/blob/master/LICENSE)
@@ -31,7 +27,3 @@ docker run --rm -it eggplanter/sh-tetris -l 10
 ## License
 
 MIT
-
-[image size]: https://img.shields.io/docker/image-size/eggplanter/sh-tetris
-[image latest version]: https://img.shields.io/docker/v/eggplanter/sh-tetris
-[screenshot]: https://user-images.githubusercontent.com/42153744/165204588-9f59a522-3a09-4234-8622-cf5ba11c0fc7.gif
